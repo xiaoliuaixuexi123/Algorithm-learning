@@ -14,7 +14,7 @@ def bubble_sort(nums: list[int]):
 
 
 if __name__ == '__main__':
-    random_list = [randint(0,100) for _ in range(100)]
+    random_list = [randint(0, 100) for _ in range(100)]
     print(random_list)
     bubble_sort(random_list)
     print(random_list)
